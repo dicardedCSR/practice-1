@@ -1,0 +1,96 @@
+<html>
+	
+	<head>
+		
+		<title>Locations</title>
+		<style>
+			
+			body {
+				background: white;
+				color: blue;
+				font-family: Helvetica Neue, Helvetica, Ariel, sans-serif;
+				font-size: 20;
+				margin: 0;
+				padding: 0;
+			}
+			header {
+				background: black;
+				font-size: 20;
+				padding: 20px;
+			}
+			header .logo a{
+				background-image: url("images/web1/logo.jpg");
+				display: inline-block;
+				height: 80px;
+				width: 300px;
+			}
+			section {
+				background: white;
+				color: black;
+				padding: 20px;
+				font-size: 20;
+				display: flex;
+				flex-direction: row;
+			}
+			footer {
+				background: grey;
+				padding: 20px;
+				font-size: 20;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+			}
+			li {
+				display: inline-block;
+				background: black;
+				margin-left: 20px;
+			}
+			li:hover {
+				background-color: turquoise;
+			}
+			.feature-box {
+				display: flex;
+			}
+			.feature-box div {
+				width: 100%;
+				margin: 1px;
+			}
+			.feature-box.sales {
+				background: blue;
+			}
+			.feature-box.closeouts {
+				background: red;
+			}
+				
+		</style>
+		
+	</head>
+	
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="web1/index.html">Home</a></li>
+					<li><a href="web1/menu.html">Menu</a></li>
+					<li class="logo"><a href="web1/index.html">chrome logo</a></li>
+					<li><u>Locations</u></li>
+					<li><a href="web1/contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+			<h1>Locations</h1>
+		</header>
+			<section class="feature-box sales">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+			</section>
+			<section class="feature-box closeouts">
+				<div>1</div>
+				<div>2</div>
+			</section>
+			<footer></footer>
+	</body>
+	
+</html>
